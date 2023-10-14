@@ -1,0 +1,53 @@
+.main_herosec {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.main_herosec img {
+    width: 100%;
+}
+
+.sub_herosec {
+    position: absolute;
+    top: 286px;
+    left: 200px;
+    color: white;
+}
+
+.sub_herosec h1 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.sub_herosec p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media (max-width: 768px) {
+    .sub_herosec {
+        top: 50px;
+        left: 20px;
+    }
+
+    .sub_herosec h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .main_herosec img {
+        width: 100%;
+    }
+
+    .sub_herosec p {
+        color: #FFF;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
